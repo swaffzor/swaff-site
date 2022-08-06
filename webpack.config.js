@@ -43,7 +43,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "swaff_site_host",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        tetris: 'tetris@http://localhost:8081/remoteEntry.js',
+      },
       exposes: {},
       shared: {
         ...deps,
