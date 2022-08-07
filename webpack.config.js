@@ -45,6 +45,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         tetris: 'tetris@http://localhost:8081/remoteEntry.js',
+        mtgc: 'mtgc@http://localhost:8082/remoteEntry.js',
       },
       exposes: {},
       shared: {
