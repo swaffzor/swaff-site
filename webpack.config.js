@@ -44,7 +44,7 @@ module.exports = {
       name: "swaff_site_host",
       filename: "remoteEntry.js",
       remotes: {
-        tetris: 'tetris@http://localhost:8081/remoteEntry.js',
+        tetris: 'tetris@https://mfe-tetris.s3.amazonaws.com/remoteEntry.js',
         mtgc: 'mtgc@http://localhost:8082/remoteEntry.js',
       },
       exposes: {},
