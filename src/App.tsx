@@ -35,7 +35,7 @@ const App = () => (
           <MagicApp />
         </React.Suspense>} 
       />
-      <Route path="/blog" element={<div><h1>Blog</h1><p>Hello blog</p></div>} />
+      <Route path="/blog" element={<div><h1>Blog</h1><p>Words are hard</p></div>} />
     </Routes>
   </BrowserRouter>
 )
