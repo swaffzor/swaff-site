@@ -20,6 +20,7 @@ const App = () => (
     <nav>
       <Link className="mx-4 text-blue-500 underline" to="/" >Home</Link>
       <Link className="mx-4 text-blue-500 underline" to="/tetris" >Tetris</Link>
+      <Link className="mx-4 text-blue-500 underline" to="/recap-job-edit" >Recap Job Edit</Link>
       <Link className="mx-4 text-blue-500 underline" to="/magic" >Magic</Link>
       <Link className="mx-4 text-blue-500 underline" to="/blog" >Blog</Link>
     </nav>
@@ -35,6 +36,7 @@ const App = () => (
           <MagicApp />
         </React.Suspense>} 
       />
+      <Route path="/recap-job-edit" element={<div><h1>Recap Job Edit</h1><p>coming soon...</p></div>} />
       <Route path="/blog" element={<div><h1>Blog</h1><p>Words are hard</p></div>} />
     </Routes>
   </BrowserRouter>
